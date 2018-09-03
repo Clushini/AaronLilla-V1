@@ -42,9 +42,9 @@ class Contact extends Component {
 
     handleSubmit(event) {
         event.preventDefault();
-        console.log(this.state);
+        //console.log(this.state);
         if (this.state.firstname && this.state.descript) {
-            fetch('http://aaronlilla:3001/contactme', {
+            fetch('http://aaronlilla.com:3001/contactme', {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
