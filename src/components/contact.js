@@ -44,7 +44,7 @@ class Contact extends Component {
         event.preventDefault();
         console.log(this.state);
         if (this.state.firstname && this.state.descript) {
-            fetch('http://localhost:3001/contactme', {
+            fetch('http://aaronlilla:3001/contactme', {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
